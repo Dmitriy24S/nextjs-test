@@ -29,7 +29,7 @@ export default function Product({ product }) {
 export async function getServerSideProps({ params }) {
   // const req = await fetch(`http://localhost:3000/${params.id}.json`);
   const req = await fetch(
-    `http://nextjs-test-dmitriy24s.vercel.app/${params.id}.json`
+    `https://nextjs-test-dmitriy24s.vercel.app/${params.id}.json`
   );
   const data = await req.json();
 
