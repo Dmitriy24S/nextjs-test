@@ -8,7 +8,7 @@ export default function AppleProductList(props) {
         <h1 className={styles.title}>Apple Products</h1>
         <ul>
           <li>
-            <Link href="/apple-products/iPhones">
+            <Link href="/apple-products/iphones">
               <a>iPhones</a>
             </Link>
           </li>
